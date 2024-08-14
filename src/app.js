@@ -11,7 +11,7 @@ const app = express();
 
 app.use(cors({
     origin: 'https://listasks-front.vercel.app',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',//no es necesario, pero ayuda a controlar que peticiones solamente va realizar
     credentials: true,
     optionsSuccessStatus: 204
 }))
