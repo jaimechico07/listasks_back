@@ -10,7 +10,7 @@ import  taskRoutes from './routes/tasks.routes.js'
 const app = express();
 
 app.use(cors({
-    origin: 'https://listasks-front.vercel.app',
+    origin: 'https://listasks-back.vercel.app',
     credentials:true
 }))
 app.use(morgan('dev'))
